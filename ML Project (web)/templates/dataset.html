@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}Dataset explorer · Flowstate{% endblock %}
+{% block breadcrumb %}Dataset explorer{% endblock %}
+{% block content %}
+<div class="page-heading"><div><div class="eyebrow">HYDERABAD SOURCE DATA</div><h1>Dataset explorer</h1><p>Inspect, search and export the Hyderabad road-network records.</p></div><div class="heading-actions"><form method="post" action="{{ url_for('reload_dataset') }}"><input type="hidden" name="csrf_token" value="{{ csrf_token }}"><button class="button button-quiet" type="submit">↻ Reload CSV</button></form><a class="button button-primary" href="{{ url_for('download_dataset', **query.to_dict()) }}">⇩ Download filtered CSV</a></div></div>
+<div class="dataset-summary">
+  <div><strong>{{ "{:,}".format(row_count) }}</strong><span>Hyderabad road records</span></div><div><strong>{{ columns|length }}</strong><span>columns</span></div><div><strong>{{ "{:,}".format(filtered_count) }}</strong><span>matching records</span></div><div class="dataset-source"><span class="source-dot"></span><span>Hyderabad, India</span></div>
+</div>
+<article class="panel filter-panel">
+  <form method="get" action="{{ url_for('dataset_explorer') }}" class="filter-form">
+    <label class="search-control"><span>⌕</span><input name="search" type="search" value="{{ query.get('search', '') }}" placeholder="Search any column or value"></label>
+    {% for parameter, label in [('road_type','Road type'),('congestion_level','Congestion'),('district','District')] %}
+      {% if parameter in categories %}<label class="select-control"><span class="sr-only">{{ label }}</span><select name="{{ parameter }}"><option value="">All {{ label|lower }}s</option>{% for option in categories[parameter] %}<option value="{{ option }}" {{ 'selected' if query.get(parameter) == option else '' }}>{{ 'Moderate' if parameter == 'congestion_level' and option == 'Medium' else option }}</option>{% endfor %}</select></label>{% endif %}
+    {% endfor %}
+    <button class="button button-secondary" type="submit">Apply filters</button><a class="reset-link" href="{{ url_for('dataset_explorer') }}">Reset</a>
+  </form>
+</article>
+<article class="panel table-panel">
+  <div class="panel-heading"><div><h2>Records <span class="inline-count">{{ filtered_count }}</span></h2><p>Showing {{ (page - 1) * 25 + (1 if filtered_count else 0) }}–{{ [page * 25, filtered_count]|min }} of {{ filtered_count }} matching records</p></div><span class="panel-tag">PAGE {{ page }} / {{ page_count }}</span></div>
+  <div class="table-wrap"><table><thead><tr>{% for column in columns %}<th>{{ column.replace('_', ' ') }}<small>{{ dtypes[column] }}</small></th>{% endfor %}</tr></thead><tbody>
+  {% for record in records %}<tr>{% for column in columns %}<td>{% if column == 'congestion_level' %}<span class="badge {{ record[column]|lower }}">{{ 'Moderate' if record[column] == 'Medium' else record[column] }}</span>{% else %}{{ record[column] }}{% endif %}</td>{% endfor %}</tr>{% else %}<tr><td class="empty-cell" colspan="{{ columns|length }}">No records match these search and filter settings.</td></tr>{% endfor %}
+  </tbody></table></div>
+  {% if page_count > 1 %}<div class="pagination">{% if page > 1 %}<a href="{{ previous_url }}">← Previous</a>{% else %}<span></span>{% endif %}<span>Page {{ page }} of {{ page_count }}</span>{% if page < page_count %}<a href="{{ next_url }}">Next →</a>{% else %}<span></span>{% endif %}</div>{% endif %}
+</article>
+<article class="panel schema-panel">
+  <div class="panel-heading"><div><h2>Column schema & missing values</h2><p>Names, pandas data types and null counts from the same loaded dataframe</p></div></div>
+  <div class="table-wrap"><table><thead><tr><th>Column name</th><th>Data type</th><th>Missing values</th><th>Coverage</th></tr></thead><tbody>{% for column in columns %}<tr><td class="schema-name">{{ column }}</td><td><code>{{ dtypes[column] }}</code></td><td>{{ missing[column] }}</td><td><div class="coverage-track"><i style="width: {{ ((row_count - missing[column]) / row_count * 100) if row_count else 0 }}%"></i></div></td></tr>{% endfor %}</tbody></table></div>
+</article>
+{% endblock %}

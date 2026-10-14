@@ -1,0 +1,201 @@
+road_id,road_name,road_type,length_km,lanes,speed_limit_kmh,capacity_vehicles_per_hour,has_bus_lane,has_bike_lane,surface_condition,last_maintenance_date,latitude_start,longitude_start,latitude_end,longitude_end,district,toll_rate_inr,avg_daily_traffic,traffic_intensity,maintenance_age_days,congestion_level
+RD-0001,NH 44 – Section 001,Collector Road,4.3,4,60,5384,0,0,Fair,2026-05-26,17.444133,78.375915,17.453534,78.336523,Tolichowki,0,10833,2.012,140,High
+RD-0002,NH 65 – Section 002,Arterial Road,4.3,4,80,6132,0,0,Good,2026-03-15,17.449382,78.396429,17.425991,78.428798,Begumpet,0,6921,1.129,212,Medium
+RD-0003,NH 163 – Section 003,Local Road,1.8,2,40,978,0,0,Fair,2025-07-22,17.443517,78.337097,17.428006,78.33214,Balanagar,0,1085,1.109,448,Medium
+RD-0004,NH 765 – Section 004,Collector Road,1.8,4,60,4160,0,1,Major Damage,2024-06-07,17.463943,78.352495,17.460875,78.335803,Keesara,0,6145,1.477,858,Medium
+RD-0005,Outer Ring Road – Section 005,Expressway / Toll Road,22.7,4,80,6600,1,0,Good,2026-06-15,17.50346,78.370327,17.499393,78.155937,Kachiguda,100,8023,1.216,120,Medium
+RD-0006,PV Narasimha Rao Expressway – Section 006,Residential / Local Road,1.4,1,40,404,0,1,Minor Damage,2024-10-02,17.475346,78.417282,17.476578,78.430442,Begumpet,0,474,1.173,741,Medium
+RD-0007,Inner Ring Road – Section 007,Local Road,1.0,2,20,1318,0,0,Fair,2026-05-13,17.46681,78.446341,17.475083,78.450079,Patancheru,0,2133,1.618,153,High
+RD-0008,Mumbai Highway – Section 008,Local Road,2.1,2,30,828,0,1,Fair,2026-05-17,17.433961,78.448167,17.438461,78.428906,Kachiguda,0,900,1.087,149,Medium
+RD-0009,Vijayawada Highway – Section 009,Expressway / Toll Road,18.9,8,80,13272,1,0,Good,2024-12-10,17.449611,78.457393,17.605673,78.386016,Begumpet,50,12171,0.917,672,Low
+RD-0010,Warangal Highway – Section 010,Residential / Local Road,2.7,1,30,553,0,1,Good,2025-02-09,17.423909,78.495293,17.402656,78.507693,Jubilee Hills,0,738,1.335,611,Medium
+RD-0011,Rajiv Gandhi International Airport Road – Section 011,Local Road,2.6,1,20,566,0,0,Good,2025-12-26,17.394475,78.486732,17.374598,78.473747,Kompally,0,594,1.049,291,Medium
+RD-0012,Nehru Outer Ring Road – Section 012,Expressway / Toll Road,14.0,8,100,13600,1,0,Fair,2025-02-05,17.393603,78.464948,17.518659,78.482125,Gachibowli,50,9918,0.729,615,Low
+RD-0013,Gachibowli–Miyapur Road – Section 013,Expressway / Toll Road,18.7,8,120,12040,0,0,Good,2026-08-05,17.347308,78.464748,17.502286,78.395545,Kukatpally,35,13255,1.101,69,Medium
+RD-0014,Old Mumbai Road – Section 014,Local Road,1.8,1,20,778,0,0,Fair,2025-08-31,17.352496,78.552341,17.364682,78.563549,Abids,0,835,1.073,408,Medium
+RD-0015,Hitech City Road – Section 015,Residential / Local Road,1.7,2,30,1466,0,1,Fair,2026-08-23,17.394516,78.559674,17.402697,78.546106,Kukatpally,0,1228,0.838,51,Low
+RD-0016,Kukatpally Main Road – Section 016,Collector Road,5.0,2,60,2172,0,0,Fair,2024-12-26,17.385475,78.528115,17.342863,78.512814,Shamshabad,0,2797,1.288,656,Medium
+RD-0017,Banjara Hills Road No. 12 – Section 017,Residential / Local Road,2.5,2,30,1450,0,0,Minor Damage,2024-04-20,17.383326,78.449837,17.402649,78.437713,Jubilee Hills,0,1785,1.231,906,Medium
+RD-0018,Jubilee Hills Road No. 36 – Section 018,Local Road,2.0,2,40,1130,0,1,Good,2025-12-20,17.411661,78.419415,17.40114,78.404085,Kukatpally,0,1227,1.086,297,Medium
+RD-0019,Begumpet Road – Section 019,Expressway / Toll Road,6.9,6,120,9516,0,0,Minor Damage,2024-05-24,17.53692,78.489131,17.56965,78.433708,Gachibowli,0,11108,1.167,872,Medium
+RD-0020,Secunderabad–Tarnaka Road – Section 020,Arterial Road,6.7,4,60,4944,0,1,Good,2024-07-12,17.192051,78.400798,17.252291,78.39682,HITEC City,0,4556,0.922,823,Low
+RD-0021,Uppal–LB Nagar Road – Section 021,Collector Road,4.8,2,50,2806,0,0,Good,2025-07-25,17.312063,78.401105,17.310899,78.355826,Tolichowki,0,3393,1.209,445,Medium
+RD-0022,Dilsukhnagar Main Road – Section 022,Expressway / Toll Road,10.2,4,120,6608,1,0,Good,2025-10-11,17.397425,78.381986,17.478831,78.426659,Keesara,0,6766,1.024,367,Medium
+RD-0023,Mehdipatnam–Tolichowki Road – Section 023,Arterial Road,7.8,4,80,6620,0,0,Fair,2025-01-08,17.443832,78.408034,17.501825,78.366439,Kukatpally,0,7833,1.183,643,Medium
+RD-0024,Charminar Approach Road – Section 024,Expressway / Toll Road,23.0,8,100,12016,0,0,Major Damage,2025-11-07,17.425264,78.439726,17.280629,78.284213,Charminar,0,19568,1.628,340,High
+RD-0025,Kompally Main Road – Section 025,Collector Road,2.0,4,50,5560,0,1,Good,2024-01-31,17.387853,78.491943,17.382557,78.50999,ECIL,0,5357,0.963,986,Low
+RD-0026,Miyapur–Bachupally Road – Section 026,Local Road,0.8,1,30,546,0,1,Fair,2025-10-22,17.437684,78.535303,17.434841,78.528361,Tolichowki,0,741,1.357,356,Medium
+RD-0027,Manikonda Main Road – Section 027,Expressway / Toll Road,23.2,4,120,7092,1,0,Good,2026-01-13,17.477402,78.566026,17.683333,78.603493,Abids,50,8579,1.21,273,Medium
+RD-0028,Ameerpet–SR Nagar Road – Section 028,Collector Road,4.5,4,50,4316,0,0,Good,2025-08-05,17.378004,78.539495,17.365999,78.580069,Manikonda,0,4040,0.936,434,Low
+RD-0029,Kachiguda Station Road – Section 029,Expressway / Toll Road,16.9,8,120,15928,0,0,Good,2025-05-09,17.533547,78.267545,17.628756,78.392145,Tarnaka,125,26405,1.658,522,High
+RD-0030,Tank Bund Road – Section 030,Local Road,1.4,2,30,1164,0,1,Minor Damage,2026-08-07,17.526658,78.658,17.535932,78.649035,Nampally,0,1111,0.954,67,Low
+RD-0031,Necklace Road – Section 031,Collector Road,4.6,4,60,3264,0,0,Good,2025-09-18,17.445348,78.38072,17.419164,78.347049,Manikonda,0,4867,1.491,390,Medium
+RD-0032,Masab Tank Road – Section 032,Expressway / Toll Road,5.6,4,120,7748,0,0,Fair,2026-02-05,17.442081,78.39132,17.443328,78.338454,Gachibowli,100,5793,0.748,250,Low
+RD-0033,Nampally Station Road – Section 033,Arterial Road,6.7,4,80,5848,1,1,Good,2025-12-25,17.445108,78.348456,17.41748,78.40471,LB Nagar,0,10333,1.767,292,High
+RD-0034,Koti Main Road – Section 034,Arterial Road,4.7,4,50,5096,0,1,Fair,2025-11-09,17.469261,78.356033,17.426926,78.35522,Uppal,0,9331,1.831,338,High
+RD-0035,ECIL Main Road – Section 035,Expressway / Toll Road,7.4,6,100,10446,0,0,Good,2025-12-31,17.505556,78.337195,17.439033,78.332612,Miyapur,0,13694,1.311,286,Medium
+RD-0036,Patancheru Industrial Road – Section 036,Expressway / Toll Road,19.9,6,120,9684,0,0,Good,2024-08-25,17.481148,78.422995,17.65301,78.476502,ECIL,35,9039,0.933,779,Low
+RD-0037,Shamshabad Airport Access Road – Section 037,Arterial Road,5.8,4,60,6756,0,0,Minor Damage,2026-03-01,17.467833,78.447254,17.515139,78.470519,Jubilee Hills,0,9007,1.333,226,Medium
+RD-0038,Rajendranagar Main Road – Section 038,Expressway / Toll Road,13.4,4,100,6060,1,0,Fair,2025-06-21,17.447569,78.451384,17.540077,78.370082,Rajendranagar,75,6540,1.079,479,Medium
+RD-0039,Kondapur Main Road – Section 039,Local Road,2.7,1,30,696,0,0,Good,2024-10-09,17.434969,78.464748,17.450425,78.484435,Banjara Hills,0,833,1.197,734,Medium
+RD-0040,Madhapur Main Road – Section 040,Arterial Road,9.9,4,50,5128,1,0,Good,2025-12-28,17.440088,78.508485,17.45538,78.416383,Dilsukhnagar,0,3556,0.693,289,Low
+RD-0041,NH 44 – Section 041,Residential / Local Road,2.0,2,30,1300,0,1,Good,2024-01-24,17.385864,78.479165,17.380667,78.461087,HITEC City,0,1473,1.133,993,Medium
+RD-0042,NH 65 – Section 042,Arterial Road,2.1,4,60,6800,0,1,Good,2024-05-18,17.38414,78.463217,17.373111,78.44711,Madhapur,0,8926,1.313,878,Medium
+RD-0043,NH 163 – Section 043,Arterial Road,9.8,4,80,5616,0,0,Fair,2024-08-23,17.356737,78.483224,17.287762,78.540966,Patancheru,0,5905,1.051,781,Medium
+RD-0044,NH 765 – Section 044,Collector Road,2.4,4,50,5176,0,0,Good,2025-10-07,17.341487,78.56037,17.361431,78.569119,Madhapur,0,7289,1.408,371,Medium
+RD-0045,Outer Ring Road – Section 045,Local Road,1.2,2,40,1214,0,1,Good,2025-12-05,17.407548,78.552503,17.414913,78.544209,Tarnaka,0,2190,1.804,312,High
+RD-0046,PV Narasimha Rao Expressway – Section 046,Collector Road,2.4,2,50,1792,0,0,Minor Damage,2025-02-09,17.357941,78.518108,17.346612,78.498813,Madhapur,0,1717,0.958,611,Low
+RD-0047,Inner Ring Road – Section 047,Collector Road,4.8,2,50,2360,0,1,Good,2024-02-10,17.397253,78.435922,17.42002,78.474449,Nampally,0,2677,1.134,976,Medium
+RD-0048,Mumbai Highway – Section 048,Expressway / Toll Road,15.0,6,120,11358,0,0,Fair,2024-09-13,17.405677,78.414703,17.281912,78.357843,Dilsukhnagar,50,12645,1.113,760,Medium
+RD-0049,Vijayawada Highway – Section 049,Arterial Road,9.4,6,50,8484,1,1,Fair,2026-01-27,17.539702,78.490163,17.456083,78.476119,Charminar,0,5462,0.644,259,Low
+RD-0050,Warangal Highway – Section 050,Collector Road,1.3,4,50,5268,0,0,Minor Damage,2024-02-04,17.209804,78.400423,17.198107,78.399804,Balanagar,0,10230,1.942,982,High
+RD-0051,Rajiv Gandhi International Airport Road – Section 051,Expressway / Toll Road,18.6,4,120,7540,0,0,Good,2026-07-26,17.321891,78.415515,17.421286,78.556829,Kondapur,100,10056,1.334,79,Medium
+RD-0052,Nehru Outer Ring Road – Section 052,Collector Road,4.9,4,40,4640,0,1,Good,2024-04-02,17.402641,78.364752,17.376358,78.327583,Mehdipatnam,0,4230,0.912,924,Low
+RD-0053,Gachibowli–Miyapur Road – Section 053,Residential / Local Road,1.8,2,40,1474,0,1,Good,2024-02-05,17.44057,78.403511,17.453784,78.413365,Miyapur,0,1249,0.847,981,Low
+RD-0054,Old Mumbai Road – Section 054,Residential / Local Road,1.6,1,40,794,0,1,Good,2026-05-12,17.413596,78.42314,17.406754,78.436436,Mehdipatnam,0,1313,1.654,154,High
+RD-0055,Hitech City Road – Section 055,Local Road,1.3,1,30,667,0,0,Fair,2026-08-03,17.369649,78.483662,17.369247,78.471398,Rajendranagar,0,447,0.67,71,Low
+RD-0056,Kukatpally Main Road – Section 056,Residential / Local Road,1.7,1,20,487,0,1,Good,2024-01-22,17.436213,78.537714,17.44589,78.525272,Begumpet,0,665,1.366,995,Medium
+RD-0057,Banjara Hills Road No. 12 – Section 057,Local Road,0.8,2,20,1554,0,1,Fair,2025-12-24,17.464447,78.577762,17.465762,78.585191,Keesara,0,1445,0.93,293,Low
+RD-0058,Jubilee Hills Road No. 36 – Section 058,Local Road,1.9,1,40,707,0,1,Fair,2026-07-12,17.370376,78.571493,17.367842,78.553755,Kompally,0,661,0.935,93,Low
+RD-0059,Begumpet Road – Section 059,Expressway / Toll Road,9.4,4,80,7372,0,0,Fair,2024-10-29,17.537075,78.260285,17.613127,78.299352,Secunderabad,50,5203,0.706,714,Low
+RD-0060,Secunderabad–Tarnaka Road – Section 060,Residential / Local Road,0.9,2,30,916,0,0,Minor Damage,2026-08-12,17.526181,78.662097,17.525956,78.653597,Jubilee Hills,0,1402,1.531,62,High
+RD-0061,Uppal–LB Nagar Road – Section 061,Local Road,1.0,1,40,748,0,1,Fair,2025-12-18,17.435658,78.375798,17.440483,78.383772,Gachibowli,0,784,1.048,299,Medium
+RD-0062,Dilsukhnagar Main Road – Section 062,Arterial Road,2.6,6,60,7344,0,0,Fair,2024-08-23,17.447695,78.394141,17.459863,78.373161,Miyapur,0,14044,1.912,781,High
+RD-0063,Mehdipatnam–Tolichowki Road – Section 063,Arterial Road,9.9,6,50,9618,1,1,Fair,2025-03-11,17.442675,78.342445,17.359176,78.375303,Secunderabad,0,12710,1.321,581,Medium
+RD-0064,Charminar Approach Road – Section 064,Residential / Local Road,1.3,2,20,978,0,0,Good,2025-12-22,17.456473,78.353618,17.444917,78.355609,Kondapur,0,1186,1.213,295,Medium
+RD-0065,Kompally Main Road – Section 065,Arterial Road,6.8,4,60,4988,1,0,Good,2025-10-12,17.499281,78.352307,17.489406,78.288913,Kondapur,0,6852,1.374,366,Medium
+RD-0066,Miyapur–Bachupally Road – Section 066,Residential / Local Road,0.7,2,30,880,0,0,Good,2024-08-31,17.483238,78.406926,17.483526,78.400321,Secunderabad,0,981,1.115,773,Medium
+RD-0067,Manikonda Main Road – Section 067,Arterial Road,6.3,4,50,6748,0,1,Minor Damage,2024-02-02,17.479945,78.452964,17.514138,78.500458,Charminar,0,7047,1.044,984,Medium
+RD-0068,Ameerpet–SR Nagar Road – Section 068,Collector Road,3.0,2,50,2710,0,0,Minor Damage,2024-09-15,17.440536,78.452977,17.427388,78.477729,Abids,0,2133,0.787,758,Low
+RD-0069,Kachiguda Station Road – Section 069,Collector Road,3.5,4,60,5996,0,1,Fair,2026-06-04,17.443515,78.460165,17.413237,78.46939,Banjara Hills,0,9009,1.503,131,High
+RD-0070,Tank Bund Road – Section 070,Collector Road,1.2,4,50,3384,0,0,Minor Damage,2025-01-25,17.444457,78.499057,17.452476,78.491457,Tarnaka,0,3569,1.055,626,Medium
+RD-0071,Necklace Road – Section 071,Expressway / Toll Road,7.2,4,100,6368,0,0,Fair,2025-08-23,17.387157,78.483252,17.448834,78.504297,ECIL,35,8297,1.303,416,Medium
+RD-0072,Masab Tank Road – Section 072,Arterial Road,7.4,4,80,6364,0,1,Good,2024-09-01,17.395832,78.456111,17.457039,78.428422,LB Nagar,0,10915,1.715,772,High
+RD-0073,Nampally Station Road – Section 073,Collector Road,1.5,4,50,5840,0,0,Good,2025-06-20,17.359715,78.472939,17.346259,78.471633,Kothapet,0,7800,1.336,480,Medium
+RD-0074,Koti Main Road – Section 074,Expressway / Toll Road,13.5,8,80,13168,0,0,Fair,2025-03-15,17.342944,78.562821,17.460366,78.529627,Mehdipatnam,35,16205,1.231,577,Medium
+RD-0075,ECIL Main Road – Section 075,Collector Road,2.8,2,40,2222,0,0,Major Damage,2026-08-01,17.400756,78.558369,17.405877,78.584253,Miyapur,0,3126,1.407,73,Medium
+RD-0076,Patancheru Industrial Road – Section 076,Residential / Local Road,2.1,1,20,420,0,0,Good,2025-09-13,17.376616,78.522338,17.381236,78.541561,Manikonda,0,623,1.483,395,Medium
+RD-0077,Shamshabad Airport Access Road – Section 077,Expressway / Toll Road,24.1,4,100,6252,0,0,Good,2025-01-29,17.392234,78.435955,17.175193,78.441983,Miyapur,0,7523,1.203,622,Medium
+RD-0078,Rajendranagar Main Road – Section 078,Expressway / Toll Road,15.6,8,100,15568,1,0,Major Damage,2025-10-03,17.412328,78.412608,17.321066,78.300598,Secunderabad,100,28394,1.824,375,High
+RD-0079,Kondapur Main Road – Section 079,Collector Road,4.0,2,60,2186,0,0,Fair,2025-08-04,17.542422,78.483866,17.543587,78.446092,HITEC City,0,2540,1.162,435,Medium
+RD-0080,Madhapur Main Road – Section 080,Collector Road,1.6,2,50,2590,0,1,Good,2025-01-22,17.204812,78.397706,17.218329,78.392467,Nampally,0,4020,1.552,629,High
+RD-0081,NH 44 – Section 081,Collector Road,1.3,4,50,3700,0,1,Fair,2026-03-11,17.322138,78.395054,17.329718,78.404406,Balanagar,0,5824,1.574,216,High
+RD-0082,NH 65 – Section 082,Collector Road,3.6,2,60,2254,0,1,Good,2025-02-01,17.403828,78.377873,17.377569,78.357924,Ameerpet,0,3442,1.527,619,High
+RD-0083,NH 163 – Section 083,Local Road,2.5,2,40,1044,0,1,Fair,2024-10-30,17.432619,78.40352,17.454556,78.408868,LB Nagar,0,1799,1.723,713,High
+RD-0084,NH 765 – Section 084,Expressway / Toll Road,20.7,6,120,11262,1,0,Good,2026-08-19,17.405504,78.440596,17.333921,78.260132,Charminar,75,10516,0.934,55,Low
+RD-0085,Outer Ring Road – Section 085,Expressway / Toll Road,9.2,4,80,7304,0,0,Minor Damage,2026-06-18,17.38222,78.483449,17.334448,78.55442,Shamshabad,125,6808,0.932,117,Low
+RD-0086,PV Narasimha Rao Expressway – Section 086,Local Road,2.6,2,40,1194,0,1,Major Damage,2025-11-15,17.429072,78.536989,17.416294,78.557565,Charminar,0,1338,1.121,332,Medium
+RD-0087,Inner Ring Road – Section 087,Local Road,2.8,1,40,432,0,1,Good,2024-03-19,17.489788,78.576178,17.476521,78.553683,Gachibowli,0,727,1.683,938,High
+RD-0088,Mumbai Highway – Section 088,Arterial Road,3.5,4,80,7124,0,1,Fair,2025-12-28,17.37729,78.557312,17.399922,78.580317,Kothapet,0,9130,1.282,289,Medium
+RD-0089,Vijayawada Highway – Section 089,Local Road,0.6,1,40,545,0,1,Good,2024-10-17,17.545191,78.264835,17.550436,78.263463,Nampally,0,534,0.98,726,Low
+RD-0090,Warangal Highway – Section 090,Residential / Local Road,2.2,1,20,536,0,0,Good,2024-06-03,17.526196,78.66739,17.517822,78.686228,Secunderabad,0,533,0.994,862,Low
+RD-0091,Rajiv Gandhi International Airport Road – Section 091,Residential / Local Road,1.7,1,40,412,0,0,Major Damage,2024-11-21,17.441114,78.372616,17.427897,78.380726,Begumpet,0,651,1.58,691,High
+RD-0092,Nehru Outer Ring Road – Section 092,Collector Road,3.5,2,50,1980,0,1,Good,2025-04-09,17.46344,78.395301,17.475554,78.364783,Keesara,0,3572,1.804,552,High
+RD-0093,Gachibowli–Miyapur Road – Section 093,Residential / Local Road,1.2,2,40,1308,0,1,Fair,2024-03-02,17.454275,78.343015,17.44832,78.333557,Dilsukhnagar,0,1381,1.056,955,Medium
+RD-0094,Old Mumbai Road – Section 094,Arterial Road,3.8,4,60,6928,0,1,Fair,2025-02-12,17.468987,78.348754,17.48803,78.31893,Charminar,0,10954,1.581,608,High
+RD-0095,Hitech City Road – Section 095,Local Road,2.9,2,40,1334,0,1,Minor Damage,2025-01-14,17.503368,78.360133,17.516836,78.383607,Kondapur,0,1246,0.934,637,Low
+RD-0096,Kukatpally Main Road – Section 096,Arterial Road,9.8,4,60,4800,1,0,Minor Damage,2024-07-12,17.499372,78.423528,17.571124,78.369587,LB Nagar,0,6394,1.332,823,Medium
+RD-0097,Banjara Hills Road No. 12 – Section 097,Expressway / Toll Road,5.8,6,80,11982,0,0,Good,2024-01-19,17.479081,78.459474,17.45338,78.411778,Abids,150,9299,0.776,998,Low
+RD-0098,Jubilee Hills Road No. 36 – Section 098,Residential / Local Road,0.4,1,30,738,0,1,Fair,2024-11-09,17.428667,78.439679,17.432243,78.440149,Madhapur,0,1068,1.447,703,Medium
+RD-0099,Begumpet Road – Section 099,Arterial Road,9.8,6,80,9396,1,0,Good,2024-01-18,17.451927,78.466763,17.42318,78.379259,Dilsukhnagar,0,12643,1.346,999,Medium
+RD-0100,Secunderabad–Tarnaka Road – Section 100,Collector Road,2.6,4,50,4304,0,0,Good,2024-07-04,17.437515,78.489483,17.419669,78.47358,Dilsukhnagar,0,8935,2.076,831,High
+RD-0101,Uppal–LB Nagar Road – Section 101,Expressway / Toll Road,10.6,6,80,9726,1,0,Good,2025-07-10,17.392246,78.456511,17.361419,78.361797,Miyapur,0,12626,1.298,460,Medium
+RD-0102,Dilsukhnagar Main Road – Section 102,Residential / Local Road,1.0,2,40,984,0,0,Good,2025-06-18,17.392934,78.456008,17.389056,78.464529,Banjara Hills,0,1357,1.379,482,Medium
+RD-0103,Mehdipatnam–Tolichowki Road – Section 103,Collector Road,4.2,2,40,2554,0,1,Good,2025-10-04,17.359734,78.466397,17.322108,78.47058,HITEC City,0,2261,0.885,374,Low
+RD-0104,Charminar Approach Road – Section 104,Collector Road,3.1,4,60,3672,0,0,Fair,2026-06-25,17.356359,78.546109,17.328756,78.550561,Kompally,0,3016,0.821,110,Low
+RD-0105,Kompally Main Road – Section 105,Local Road,0.3,1,30,751,0,0,Good,2025-12-14,17.410159,78.562232,17.407748,78.563513,Keesara,0,1009,1.344,303,Medium
+RD-0106,Miyapur–Bachupally Road – Section 106,Local Road,1.9,1,30,769,0,1,Good,2024-05-28,17.371178,78.532705,17.387289,78.538764,Ameerpet,0,553,0.719,868,Low
+RD-0107,Manikonda Main Road – Section 107,Arterial Road,2.8,4,60,5072,1,1,Fair,2024-08-07,17.402939,78.434007,17.421354,78.415941,HITEC City,0,5484,1.081,797,Medium
+RD-0108,Ameerpet–SR Nagar Road – Section 108,Expressway / Toll Road,19.3,4,80,6528,1,0,Good,2024-03-30,17.406823,78.404209,17.233702,78.387268,Abids,75,9713,1.488,927,Medium
+RD-0109,Kachiguda Station Road – Section 109,Collector Road,2.0,2,50,1616,0,0,Good,2026-05-16,17.532865,78.493501,17.544891,78.47943,LB Nagar,0,1694,1.048,150,Medium
+RD-0110,Tank Bund Road – Section 110,Collector Road,2.7,2,40,1918,0,1,Good,2025-02-21,17.194832,78.386822,17.196787,78.361442,Kachiguda,0,1484,0.774,599,Low
+RD-0111,Necklace Road – Section 111,Local Road,0.3,1,40,673,0,1,Good,2026-06-09,17.332504,78.403059,17.33335,78.405747,Shamshabad,0,834,1.239,126,Medium
+RD-0112,Masab Tank Road – Section 112,Residential / Local Road,2.8,1,20,660,0,1,Good,2025-05-22,17.383875,78.371662,17.407056,78.361238,Tolichowki,0,803,1.217,509,Medium
+RD-0113,Nampally Station Road – Section 113,Residential / Local Road,2.2,2,30,1380,0,0,Good,2025-05-11,17.427558,78.420187,17.408966,78.412988,Kondapur,0,1804,1.307,520,Medium
+RD-0114,Koti Main Road – Section 114,Residential / Local Road,1.5,2,40,1328,0,0,Good,2024-07-03,17.421373,78.44442,17.429085,78.45605,Kompally,0,1363,1.026,832,Medium
+RD-0115,ECIL Main Road – Section 115,Residential / Local Road,1.9,2,40,1016,0,1,Minor Damage,2024-01-30,17.39606,78.490041,17.389918,78.506784,Mehdipatnam,0,768,0.756,987,Low
+RD-0116,Patancheru Industrial Road – Section 116,Collector Road,4.2,4,50,5620,0,1,Good,2024-07-28,17.432574,78.547658,17.409406,78.579013,Ameerpet,0,4541,0.808,807,Low
+RD-0117,Shamshabad Airport Access Road – Section 117,Expressway / Toll Road,7.6,8,120,13752,1,0,Minor Damage,2025-02-20,17.476078,78.566936,17.452549,78.634347,Abids,100,11547,0.84,600,Low
+RD-0118,Rajendranagar Main Road – Section 118,Expressway / Toll Road,10.9,8,100,13272,1,0,Fair,2024-01-20,17.375013,78.549291,17.278309,78.567173,Tarnaka,35,17227,1.298,997,Medium
+RD-0119,Kondapur Main Road – Section 119,Local Road,2.2,1,20,501,0,0,Good,2024-03-04,17.542956,78.261525,17.527188,78.274119,Rajendranagar,0,823,1.643,953,High
+RD-0120,Madhapur Main Road – Section 120,Collector Road,4.9,2,50,2756,0,1,Good,2026-04-06,17.528508,78.655247,17.538141,78.700424,Shamshabad,0,2737,0.993,190,Low
+RD-0121,NH 44 – Section 121,Collector Road,3.3,2,40,2504,0,0,Minor Damage,2026-01-27,17.440264,78.385022,17.443029,78.41605,LB Nagar,0,4123,1.647,259,High
+RD-0122,NH 65 – Section 122,Collector Road,1.9,4,50,3720,0,1,Fair,2024-02-05,17.447374,78.371604,17.463626,78.377236,Begumpet,0,4709,1.266,981,Medium
+RD-0123,NH 163 – Section 123,Residential / Local Road,2.9,1,20,482,0,1,Fair,2024-11-29,17.433192,78.355095,17.458631,78.361333,HITEC City,0,697,1.446,683,Medium
+RD-0124,NH 765 – Section 124,Collector Road,4.3,4,60,4600,0,1,Good,2025-05-18,17.470046,78.371422,17.443226,78.342118,Begumpet,0,3972,0.863,513,Low
+RD-0125,Outer Ring Road – Section 125,Expressway / Toll Road,19.8,6,120,10908,0,0,Major Damage,2026-03-15,17.490284,78.364912,17.546943,78.542251,Banjara Hills,75,15761,1.445,212,Medium
+RD-0126,PV Narasimha Rao Expressway – Section 126,Residential / Local Road,0.3,2,20,868,0,1,Good,2024-09-07,17.478956,78.413264,17.476829,78.411516,Kondapur,0,1031,1.188,766,Medium
+RD-0127,Inner Ring Road – Section 127,Local Road,2.8,1,40,560,0,0,Good,2025-07-04,17.465903,78.440259,17.441855,78.432276,Tolichowki,0,796,1.421,466,Medium
+RD-0128,Mumbai Highway – Section 128,Residential / Local Road,2.4,2,40,1414,0,0,Major Damage,2026-09-17,17.432742,78.445657,17.412048,78.439088,Manikonda,0,1102,0.779,26,Low
+RD-0129,Vijayawada Highway – Section 129,Expressway / Toll Road,22.5,8,100,15976,1,0,Good,2025-08-14,17.453861,78.470463,17.258728,78.52799,HITEC City,150,14192,0.888,425,Low
+RD-0130,Warangal Highway – Section 130,Collector Road,4.0,4,60,3780,0,0,Good,2024-05-30,17.441154,78.497712,17.424779,78.464065,Secunderabad,0,3886,1.028,866,Medium
+RD-0131,Rajiv Gandhi International Airport Road – Section 131,Collector Road,2.6,2,60,2920,0,0,Good,2024-06-18,17.377867,78.474545,17.355343,78.481279,Kukatpally,0,3231,1.107,847,Medium
+RD-0132,Nehru Outer Ring Road – Section 132,Expressway / Toll Road,13.9,8,100,12968,0,0,Good,2025-05-25,17.400005,78.446836,17.490433,78.537617,Kothapet,150,9815,0.757,506,Low
+RD-0133,Gachibowli–Miyapur Road – Section 133,Arterial Road,9.2,6,60,10752,1,1,Good,2024-03-11,17.360221,78.464834,17.414899,78.399573,Ameerpet,0,12774,1.188,946,Medium
+RD-0134,Old Mumbai Road – Section 134,Expressway / Toll Road,21.1,8,100,14184,1,0,Good,2025-06-14,17.349011,78.548063,17.373927,78.745495,Gachibowli,35,18523,1.306,486,Medium
+RD-0135,Hitech City Road – Section 135,Expressway / Toll Road,14.8,8,80,12128,1,0,Good,2025-09-02,17.392311,78.567038,17.357122,78.43227,Manikonda,125,15745,1.298,406,Medium
+RD-0136,Kukatpally Main Road – Section 136,Residential / Local Road,1.3,2,20,918,0,0,Good,2026-01-19,17.370846,78.531982,17.361357,78.539174,Patancheru,0,853,0.929,267,Low
+RD-0137,Banjara Hills Road No. 12 – Section 137,Residential / Local Road,2.1,1,40,444,0,0,Good,2026-01-13,17.408959,78.437922,17.392037,78.429056,Jubilee Hills,0,532,1.198,273,Medium
+RD-0138,Jubilee Hills Road No. 36 – Section 138,Arterial Road,8.8,4,80,5120,0,0,Good,2025-12-21,17.411702,78.406515,17.34062,78.36972,Tarnaka,0,7167,1.4,296,Medium
+RD-0139,Begumpet Road – Section 139,Collector Road,3.2,4,50,5824,0,0,Fair,2025-08-03,17.540012,78.479872,17.514694,78.465413,Kompally,0,9552,1.64,436,High
+RD-0140,Secunderabad–Tarnaka Road – Section 140,Residential / Local Road,1.3,1,40,534,0,0,Fair,2026-09-12,17.197033,78.389726,17.20852,78.387333,Patancheru,0,971,1.818,31,High
+RD-0141,Uppal–LB Nagar Road – Section 141,Expressway / Toll Road,7.0,4,100,6828,1,0,Fair,2025-04-14,17.324878,78.408481,17.317583,78.342865,Manikonda,75,6826,1.0,547,Low
+RD-0142,Dilsukhnagar Main Road – Section 142,Residential / Local Road,1.7,1,20,680,0,0,Good,2025-01-21,17.399509,78.388267,17.389882,78.375785,Secunderabad,0,508,0.747,630,Low
+RD-0143,Mehdipatnam–Tolichowki Road – Section 143,Expressway / Toll Road,16.9,6,100,11292,1,0,Fair,2024-11-28,17.422583,78.41135,17.521162,78.532959,Abids,150,11268,0.998,684,Low
+RD-0144,Charminar Approach Road – Section 144,Arterial Road,8.5,4,60,5980,0,0,Good,2024-10-12,17.414337,78.438492,17.449012,78.366936,Kachiguda,0,7623,1.275,731,Medium
+RD-0145,Kompally Main Road – Section 145,Collector Road,5.0,2,50,1696,0,0,Good,2024-02-22,17.393527,78.484458,17.371154,78.525427,Mehdipatnam,0,1791,1.056,964,Medium
+RD-0146,Miyapur–Bachupally Road – Section 146,Collector Road,3.9,2,50,2960,0,1,Good,2026-01-25,17.4276,78.532984,17.429561,78.496216,Ameerpet,0,3778,1.276,261,Medium
+RD-0147,Manikonda Main Road – Section 147,Expressway / Toll Road,7.5,4,120,6460,0,0,Good,2025-08-07,17.485279,78.57052,17.542147,78.608775,Uppal,100,6156,0.953,432,Low
+RD-0148,Ameerpet–SR Nagar Road – Section 148,Expressway / Toll Road,7.8,4,80,6028,1,0,Fair,2025-08-20,17.366849,78.539567,17.319283,78.593762,Kukatpally,35,6095,1.011,419,Medium
+RD-0149,Kachiguda Station Road – Section 149,Arterial Road,6.8,6,50,7956,0,1,Good,2025-08-23,17.529105,78.270417,17.565818,78.321847,Dilsukhnagar,0,10155,1.276,416,Medium
+RD-0150,Tank Bund Road – Section 150,Residential / Local Road,0.5,2,30,1018,0,1,Good,2024-04-29,17.521175,78.660503,17.52472,78.657588,Balanagar,0,1254,1.232,897,Medium
+RD-0151,Necklace Road – Section 151,Residential / Local Road,1.1,1,40,661,0,1,Minor Damage,2025-07-08,17.42375,78.374195,17.41384,78.374085,Shamshabad,0,844,1.277,462,Medium
+RD-0152,Masab Tank Road – Section 152,Collector Road,4.5,2,50,2642,0,1,Fair,2024-02-24,17.447664,78.379503,17.474334,78.411508,Shamshabad,0,2780,1.052,962,Medium
+RD-0153,Nampally Station Road – Section 153,Local Road,0.7,1,30,643,0,0,Good,2026-02-05,17.418482,78.350307,17.423095,78.354814,Rajendranagar,0,978,1.521,250,High
+RD-0154,Koti Main Road – Section 154,Local Road,1.9,2,30,1268,0,1,Fair,2026-08-07,17.470723,78.358571,17.481202,78.344383,Banjara Hills,0,1815,1.431,67,Medium
+RD-0155,ECIL Main Road – Section 155,Residential / Local Road,2.1,1,20,479,0,0,Fair,2025-12-16,17.504682,78.350065,17.489118,78.338787,Kachiguda,0,353,0.737,301,Low
+RD-0156,Patancheru Industrial Road – Section 156,Collector Road,5.0,2,50,2136,0,1,Good,2026-05-29,17.501818,78.413251,17.497686,78.366219,Tarnaka,0,1888,0.884,137,Low
+RD-0157,Shamshabad Airport Access Road – Section 157,Residential / Local Road,2.0,1,40,671,0,0,Good,2026-07-18,17.471072,78.445846,17.48906,78.446932,Kothapet,0,1026,1.529,87,High
+RD-0158,Rajendranagar Main Road – Section 158,Residential / Local Road,1.7,2,30,1130,0,1,Good,2025-01-08,17.450731,78.460911,17.450989,78.476963,Uppal,0,1234,1.092,643,Medium
+RD-0159,Kondapur Main Road – Section 159,Collector Road,1.9,4,50,5560,0,0,Good,2024-03-11,17.446217,78.469901,17.441004,78.452811,Uppal,0,8468,1.523,946,High
+RD-0160,Madhapur Main Road – Section 160,Expressway / Toll Road,17.6,4,100,6696,0,0,Fair,2025-03-01,17.443163,78.499305,17.539686,78.367448,Madhapur,75,6659,0.994,591,Low
+RD-0161,NH 44 – Section 161,Residential / Local Road,1.1,1,40,471,0,1,Fair,2025-03-16,17.392077,78.479796,17.383697,78.48534,Mehdipatnam,0,499,1.059,576,Medium
+RD-0162,NH 65 – Section 162,Residential / Local Road,2.6,1,20,602,0,0,Good,2026-04-19,17.389867,78.472305,17.367468,78.465125,Kondapur,0,941,1.563,177,High
+RD-0163,NH 163 – Section 163,Expressway / Toll Road,22.5,8,80,14024,1,0,Good,2024-02-22,17.358775,78.47572,17.494149,78.633791,Nampally,50,19069,1.36,964,Medium
+RD-0164,NH 765 – Section 164,Residential / Local Road,2.7,1,30,590,0,0,Fair,2024-11-20,17.330198,78.557524,17.35452,78.557809,Kothapet,0,641,1.086,692,Medium
+RD-0165,Outer Ring Road – Section 165,Residential / Local Road,1.9,2,20,1228,0,1,Good,2024-06-01,17.39213,78.570137,17.393787,78.552284,Patancheru,0,2592,2.111,864,High
+RD-0166,PV Narasimha Rao Expressway – Section 166,Residential / Local Road,2.4,1,40,781,0,0,Minor Damage,2026-01-29,17.36179,78.516541,17.351255,78.536324,Madhapur,0,586,0.75,257,Low
+RD-0167,Inner Ring Road – Section 167,Residential / Local Road,2.9,2,20,1146,0,0,Good,2024-09-21,17.403194,78.447053,17.398382,78.420142,Shamshabad,0,847,0.739,752,Low
+RD-0168,Mumbai Highway – Section 168,Residential / Local Road,0.7,2,20,1492,0,0,Good,2024-12-27,17.401625,78.429023,17.396687,78.433134,Mehdipatnam,0,2990,2.004,655,High
+RD-0169,Vijayawada Highway – Section 169,Residential / Local Road,1.6,2,40,1176,0,1,Fair,2026-06-25,17.558501,78.484937,17.572906,78.485482,Ameerpet,0,1548,1.316,110,Medium
+RD-0170,Warangal Highway – Section 170,Residential / Local Road,1.4,1,40,782,0,1,Fair,2025-09-14,17.207878,78.406729,17.195267,78.406928,Dilsukhnagar,0,1113,1.423,394,Medium
+RD-0171,Rajiv Gandhi International Airport Road – Section 171,Local Road,1.0,2,40,1302,0,0,Good,2026-03-09,17.309015,78.410935,17.300276,78.413229,Kachiguda,0,1554,1.194,218,Medium
+RD-0172,Nehru Outer Ring Road – Section 172,Arterial Road,9.3,4,50,6800,0,1,Good,2024-09-13,17.403455,78.367083,17.462413,78.304699,Uppal,0,7856,1.155,760,Medium
+RD-0173,Gachibowli–Miyapur Road – Section 173,Expressway / Toll Road,15.7,8,100,14688,1,0,Good,2024-03-14,17.427403,78.414295,17.286295,78.424465,Balanagar,35,12134,0.826,943,Low
+RD-0174,Old Mumbai Road – Section 174,Expressway / Toll Road,8.3,4,120,6792,1,0,Minor Damage,2024-04-05,17.407754,78.43542,17.41631,78.513269,Gachibowli,150,7586,1.117,921,Medium
+RD-0175,Hitech City Road – Section 175,Arterial Road,9.2,4,50,6140,1,1,Good,2025-06-25,17.366586,78.497217,17.347408,78.412732,Uppal,0,7900,1.287,475,Medium
+RD-0176,Kukatpally Main Road – Section 176,Local Road,2.3,1,30,615,0,1,Fair,2025-04-03,17.41886,78.547031,17.400269,78.537442,Charminar,0,884,1.437,558,Medium
+RD-0177,Banjara Hills Road No. 12 – Section 177,Expressway / Toll Road,13.4,4,100,7416,0,0,Good,2024-02-19,17.472254,78.575476,17.411104,78.466354,Tolichowki,50,5570,0.751,967,Low
+RD-0178,Jubilee Hills Road No. 36 – Section 178,Local Road,1.8,2,20,1428,0,0,Fair,2024-08-18,17.354504,78.542268,17.369241,78.549356,Jubilee Hills,0,1691,1.184,786,Medium
+RD-0179,Begumpet Road – Section 179,Local Road,0.5,2,20,1576,0,0,Fair,2024-06-12,17.525701,78.2678,17.530184,78.267337,Nampally,0,2909,1.846,853,High
+RD-0180,Secunderabad–Tarnaka Road – Section 180,Expressway / Toll Road,9.3,6,80,10596,1,0,Fair,2024-03-12,17.523467,78.654574,17.54182,78.568847,Madhapur,50,17097,1.614,945,High
+RD-0181,Uppal–LB Nagar Road – Section 181,Collector Road,3.0,4,60,3360,0,1,Fair,2025-09-22,17.439417,78.370749,17.436083,78.342636,Keesara,0,5247,1.562,386,High
+RD-0182,Dilsukhnagar Main Road – Section 182,Residential / Local Road,1.7,1,20,681,0,1,Major Damage,2025-03-08,17.460354,78.388513,17.475642,78.389462,ECIL,0,1203,1.767,584,High
+RD-0183,Mehdipatnam–Tolichowki Road – Section 183,Arterial Road,7.4,4,60,6212,1,1,Good,2024-04-25,17.436907,78.348665,17.491713,78.38845,Patancheru,0,8805,1.417,901,Medium
+RD-0184,Charminar Approach Road – Section 184,Expressway / Toll Road,19.1,8,120,13608,0,0,Good,2024-09-06,17.466617,78.348154,17.637861,78.330482,ECIL,35,12108,0.89,767,Low
+RD-0185,Kompally Main Road – Section 185,Local Road,2.7,1,40,427,0,1,Good,2025-06-06,17.487509,78.377457,17.473789,78.398516,Kothapet,0,677,1.585,494,High
+RD-0186,Miyapur–Bachupally Road – Section 186,Local Road,2.6,1,30,789,0,1,Fair,2026-04-22,17.486357,78.428519,17.462966,78.4298,Kompally,0,767,0.972,174,Low
+RD-0187,Manikonda Main Road – Section 187,Expressway / Toll Road,20.8,4,100,6916,0,0,Good,2024-08-15,17.488856,78.449957,17.302576,78.428634,Balanagar,50,8821,1.275,789,Medium
+RD-0188,Ameerpet–SR Nagar Road – Section 188,Expressway / Toll Road,12.9,6,100,9780,1,0,Good,2024-03-03,17.430505,78.461296,17.546719,78.46046,ECIL,35,9607,0.982,954,Low
+RD-0189,Kachiguda Station Road – Section 189,Expressway / Toll Road,10.9,6,100,9720,1,0,Minor Damage,2025-12-24,17.456849,78.468989,17.452435,78.366154,Nampally,100,10044,1.033,293,Medium
+RD-0190,Tank Bund Road – Section 190,Residential / Local Road,2.6,2,40,820,0,1,Major Damage,2025-02-27,17.445612,78.500163,17.424394,78.489762,Miyapur,0,842,1.027,593,Medium
+RD-0191,Necklace Road – Section 191,Local Road,1.5,1,30,519,0,0,Good,2026-08-23,17.399074,78.47829,17.386444,78.473253,LB Nagar,0,912,1.757,51,High
+RD-0192,Masab Tank Road – Section 192,Residential / Local Road,2.6,2,40,814,0,1,Good,2026-09-28,17.378802,78.468784,17.38381,78.49276,Rajendranagar,0,679,0.834,15,Low
+RD-0193,Nampally Station Road – Section 193,Collector Road,4.9,4,60,3576,0,1,Minor Damage,2024-08-26,17.359557,78.484337,17.40281,78.493582,Ameerpet,0,4898,1.37,778,Medium
+RD-0194,Koti Main Road – Section 194,Arterial Road,9.7,6,80,10476,1,0,Good,2026-03-08,17.354328,78.559057,17.437198,78.588111,Uppal,0,20287,1.937,219,High
+RD-0195,ECIL Main Road – Section 195,Expressway / Toll Road,23.6,4,100,6244,0,0,Minor Damage,2024-10-12,17.398588,78.568725,17.602244,78.632715,Kukatpally,50,10256,1.643,731,High
+RD-0196,Patancheru Industrial Road – Section 196,Collector Road,3.9,2,60,2198,0,1,Fair,2024-12-09,17.380411,78.51547,17.385356,78.479021,Banjara Hills,0,2138,0.973,673,Low
+RD-0197,Shamshabad Airport Access Road – Section 197,Arterial Road,3.3,6,60,8130,1,0,Good,2025-08-30,17.38962,78.43899,17.406562,78.46459,Rajendranagar,0,6064,0.746,409,Low
+RD-0198,Rajendranagar Main Road – Section 198,Residential / Local Road,0.9,2,20,1386,0,0,Fair,2026-04-28,17.388539,78.403294,17.385807,78.395295,Balanagar,0,1446,1.043,168,Medium
+RD-0199,Kondapur Main Road – Section 199,Collector Road,5.0,4,50,4776,0,0,Fair,2025-05-11,17.54794,78.476502,17.51299,78.506306,Kompally,0,6823,1.429,520,Medium
+RD-0200,Madhapur Main Road – Section 200,Expressway / Toll Road,18.1,8,80,14744,1,0,Fair,2025-12-21,17.207907,78.393294,17.105293,78.52596,Tolichowki,35,16047,1.088,296,Medium

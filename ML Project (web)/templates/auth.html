@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ 'Create account' if mode == 'register' else 'Sign in' }} · Flowstate</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="auth-body">
+  <main class="auth-layout">
+    <section class="auth-story">
+      <a class="brand auth-brand" href="{{ url_for('login') }}"><span class="brand-mark">F</span><span><strong>flowstate</strong><small>TRAFFIC INTELLIGENCE</small></span></a>
+      <div class="auth-story-content">
+        <div class="eyebrow">A CLEARER VIEW OF EVERY ROAD</div>
+        <h1>Smarter traffic decisions start here.</h1>
+        <p>Explore your road network data, evaluate congestion models, and generate predictions in one connected workspace.</p>
+        <div class="auth-feature"><span>01</span><div><strong>Your data, connected</strong><small>Insights built from your project dataset.</small></div></div>
+        <div class="auth-feature"><span>02</span><div><strong>Predictions you can inspect</strong><small>Results from trained models and measured evaluation.</small></div></div>
+      </div>
+      <div class="auth-story-footer">FLOWSTATE TRAFFIC INTELLIGENCE <span>PRIVATE WORKSPACE</span></div>
+    </section>
+    <section class="auth-form-side">
+      <div class="auth-card">
+        <div class="auth-mobile-brand"><span class="brand-mark">F</span><strong>flowstate</strong></div>
+        <div class="eyebrow">{{ 'GET STARTED' if mode == 'register' else 'WELCOME BACK' }}</div>
+        <h2>{{ 'Create your account' if mode == 'register' else 'Sign in to Flowstate' }}</h2>
+        <p class="auth-subtitle">{{ 'Set up an account to access your traffic intelligence workspace.' if mode == 'register' else 'Enter your account details to continue to your workspace.' }}</p>
+        {% if error %}<div class="auth-error" role="alert">{{ error }}</div>{% endif %}
+        <form method="post" action="{{ url_for('register' if mode == 'register' else 'login', next=request.args.get('next')) }}" class="auth-form">
+          <input type="hidden" name="csrf_token" value="{{ csrf_token }}">
+          <label class="auth-field"><span>Username</span><input name="username" type="text" value="{{ username }}" minlength="3" maxlength="32" pattern="[A-Za-z0-9_.-]{3,32}" autocomplete="username" placeholder="Choose a username" required autofocus></label>
+          <label class="auth-field"><span>Password</span><input name="password" type="password" minlength="{{ 8 if mode == 'register' else 1 }}" maxlength="128" autocomplete="{{ 'new-password' if mode == 'register' else 'current-password' }}" placeholder="{{ 'At least 8 characters' if mode == 'register' else 'Enter your password' }}" required></label>
+          {% if mode == 'register' %}<label class="auth-field"><span>Confirm password</span><input name="confirm_password" type="password" minlength="8" maxlength="128" autocomplete="new-password" placeholder="Enter your password again" required></label>{% endif %}
+          <button class="button button-primary auth-submit" type="submit">{{ 'Create account' if mode == 'register' else 'Sign in' }} <span>→</span></button>
+        </form>
+        {% if mode == 'register' %}<p class="auth-switch">Already have an account? <a href="{{ url_for('login') }}">Sign in</a></p>{% else %}<p class="auth-switch">New to Flowstate? <a href="{{ url_for('register') }}">Create an account</a></p>{% endif %}
+        <div class="auth-security"><span>●</span> Passwords are securely hashed and never stored as plain text.</div>
+      </div>
+      <footer class="auth-footer">© Flowstate Traffic Intelligence <span>SECURE ACCOUNT ACCESS</span></footer>
+    </section>
+  </main>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Data unavailable · Flowstate{% endblock %}
+{% block breadcrumb %}Data unavailable{% endblock %}
+{% block content %}
+<div class="error-state panel"><span class="error-mark">!</span><div class="eyebrow">SOURCE ERROR</div><h1>We couldn't load the data</h1><p>{{ error }}</p><a class="button button-primary" href="{{ url_for('dashboard') }}">Try again</a><div class="error-path">Expected source: <code>data/traffic_congestion_complete_dataset.csv</code></div></div>
+{% endblock %}

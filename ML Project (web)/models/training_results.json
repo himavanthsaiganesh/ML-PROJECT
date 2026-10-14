@@ -1,0 +1,438 @@
+{
+  "target": "congestion_level",
+  "source_path": "C:\\Users\\Himavanth Sai Ganesh\\OneDrive\\Desktop\\ML Project (web)\\data\\traffic_congestion_complete_dataset.csv",
+  "dataset_sha256": "d27f6f40d869140abb1da3e21cd57c16517811922af8e4bdee0bfc67b2ed2caf",
+  "dataset_modified_ns": 1791871405212512600,
+  "trained_at": "2026-10-13T06:08:40.478988+00:00",
+  "rows": 200,
+  "columns": [
+    "road_id",
+    "road_name",
+    "road_type",
+    "length_km",
+    "lanes",
+    "speed_limit_kmh",
+    "capacity_vehicles_per_hour",
+    "has_bus_lane",
+    "has_bike_lane",
+    "surface_condition",
+    "last_maintenance_date",
+    "latitude_start",
+    "longitude_start",
+    "latitude_end",
+    "longitude_end",
+    "district",
+    "toll_rate_inr",
+    "avg_daily_traffic",
+    "traffic_intensity",
+    "maintenance_age_days",
+    "congestion_level"
+  ],
+  "feature_columns": [
+    "road_type",
+    "length_km",
+    "lanes",
+    "speed_limit_kmh",
+    "capacity_vehicles_per_hour",
+    "has_bus_lane",
+    "has_bike_lane",
+    "surface_condition",
+    "latitude_start",
+    "longitude_start",
+    "latitude_end",
+    "longitude_end",
+    "district",
+    "toll_rate_inr",
+    "avg_daily_traffic",
+    "maintenance_age_days"
+  ],
+  "numeric_features": [
+    "length_km",
+    "lanes",
+    "speed_limit_kmh",
+    "capacity_vehicles_per_hour",
+    "has_bus_lane",
+    "has_bike_lane",
+    "latitude_start",
+    "longitude_start",
+    "latitude_end",
+    "longitude_end",
+    "toll_rate_inr",
+    "avg_daily_traffic",
+    "maintenance_age_days"
+  ],
+  "categorical_features": [
+    "road_type",
+    "surface_condition",
+    "district"
+  ],
+  "excluded_columns": {
+    "road_id": "identifier",
+    "road_name": "identifier",
+    "last_maintenance_date": "duplicate maintenance-date representation",
+    "traffic_intensity": "target leakage: derived directly from traffic and capacity",
+    "congestion_level": "target"
+  },
+  "input_schema": {
+    "road_type": {
+      "dtype": "str",
+      "kind": "categorical",
+      "options": [
+        "Arterial Road",
+        "Collector Road",
+        "Expressway / Toll Road",
+        "Local Road",
+        "Residential / Local Road"
+      ]
+    },
+    "length_km": {
+      "dtype": "float64",
+      "kind": "numeric",
+      "options": []
+    },
+    "lanes": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "speed_limit_kmh": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "capacity_vehicles_per_hour": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "has_bus_lane": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "has_bike_lane": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "surface_condition": {
+      "dtype": "str",
+      "kind": "categorical",
+      "options": [
+        "Fair",
+        "Good",
+        "Major Damage",
+        "Minor Damage"
+      ]
+    },
+    "latitude_start": {
+      "dtype": "float64",
+      "kind": "numeric",
+      "options": []
+    },
+    "longitude_start": {
+      "dtype": "float64",
+      "kind": "numeric",
+      "options": []
+    },
+    "latitude_end": {
+      "dtype": "float64",
+      "kind": "numeric",
+      "options": []
+    },
+    "longitude_end": {
+      "dtype": "float64",
+      "kind": "numeric",
+      "options": []
+    },
+    "district": {
+      "dtype": "str",
+      "kind": "categorical",
+      "options": [
+        "Abids",
+        "Ameerpet",
+        "Balanagar",
+        "Banjara Hills",
+        "Begumpet",
+        "Charminar",
+        "Dilsukhnagar",
+        "ECIL",
+        "Gachibowli",
+        "HITEC City",
+        "Jubilee Hills",
+        "Kachiguda",
+        "Keesara",
+        "Kompally",
+        "Kondapur",
+        "Kothapet",
+        "Kukatpally",
+        "LB Nagar",
+        "Madhapur",
+        "Manikonda",
+        "Mehdipatnam",
+        "Miyapur",
+        "Nampally",
+        "Patancheru",
+        "Rajendranagar",
+        "Secunderabad",
+        "Shamshabad",
+        "Tarnaka",
+        "Tolichowki",
+        "Uppal"
+      ]
+    },
+    "toll_rate_inr": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "avg_daily_traffic": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    },
+    "maintenance_age_days": {
+      "dtype": "int64",
+      "kind": "numeric",
+      "options": []
+    }
+  },
+  "split": {
+    "random_state": 42,
+    "test_size": 50,
+    "train_size": 150,
+    "stratified": true
+  },
+  "class_counts": {
+    "Medium": 104,
+    "Low": 55,
+    "High": 41
+  },
+  "evaluations": {
+    "random_forest": {
+      "accuracy": 0.38,
+      "precision_weighted": 0.4014035087719298,
+      "recall_weighted": 0.38,
+      "f1_weighted": 0.3825454545454545,
+      "labels": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          3,
+          3
+        ],
+        [
+          1,
+          6,
+          7
+        ],
+        [
+          7,
+          10,
+          9
+        ]
+      ],
+      "feature_importance": [
+        {
+          "feature": "numeric__avg_daily_traffic",
+          "importance": 0.12330709192424677
+        },
+        {
+          "feature": "numeric__longitude_start",
+          "importance": 0.09928118613841394
+        },
+        {
+          "feature": "numeric__longitude_end",
+          "importance": 0.09346407046275705
+        },
+        {
+          "feature": "numeric__maintenance_age_days",
+          "importance": 0.09138844816921164
+        },
+        {
+          "feature": "numeric__length_km",
+          "importance": 0.08826485937052958
+        },
+        {
+          "feature": "numeric__latitude_start",
+          "importance": 0.08038518402084448
+        },
+        {
+          "feature": "numeric__latitude_end",
+          "importance": 0.07670806254881213
+        },
+        {
+          "feature": "numeric__capacity_vehicles_per_hour",
+          "importance": 0.07634401757212833
+        },
+        {
+          "feature": "numeric__speed_limit_kmh",
+          "importance": 0.039567031112499346
+        },
+        {
+          "feature": "numeric__lanes",
+          "importance": 0.025300308111977216
+        },
+        {
+          "feature": "numeric__toll_rate_inr",
+          "importance": 0.020306382255944153
+        },
+        {
+          "feature": "categorical__district_LB Nagar",
+          "importance": 0.016357607315802762
+        },
+        {
+          "feature": "numeric__has_bike_lane",
+          "importance": 0.01570908901413751
+        },
+        {
+          "feature": "categorical__surface_condition_Good",
+          "importance": 0.014838100314071572
+        },
+        {
+          "feature": "categorical__surface_condition_Fair",
+          "importance": 0.013840925165368148
+        },
+        {
+          "feature": "categorical__road_type_Collector Road",
+          "importance": 0.013679413765573356
+        },
+        {
+          "feature": "categorical__surface_condition_Major Damage",
+          "importance": 0.009843259264086291
+        },
+        {
+          "feature": "categorical__road_type_Arterial Road",
+          "importance": 0.009533958154508925
+        },
+        {
+          "feature": "categorical__road_type_Expressway / Toll Road",
+          "importance": 0.008743227585933834
+        },
+        {
+          "feature": "numeric__has_bus_lane",
+          "importance": 0.008423447182495518
+        }
+      ]
+    },
+    "gradient_boosting": {
+      "accuracy": 0.58,
+      "precision_weighted": 0.5868243727598567,
+      "recall_weighted": 0.58,
+      "f1_weighted": 0.5759649122807017,
+      "labels": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "confusion_matrix": [
+        [
+          4,
+          0,
+          6
+        ],
+        [
+          0,
+          7,
+          7
+        ],
+        [
+          5,
+          3,
+          18
+        ]
+      ],
+      "feature_importance": [
+        {
+          "feature": "numeric__avg_daily_traffic",
+          "importance": 0.22573989567474578
+        },
+        {
+          "feature": "numeric__capacity_vehicles_per_hour",
+          "importance": 0.20117572624442004
+        },
+        {
+          "feature": "numeric__longitude_start",
+          "importance": 0.1062761649412639
+        },
+        {
+          "feature": "numeric__length_km",
+          "importance": 0.08567699245650878
+        },
+        {
+          "feature": "numeric__maintenance_age_days",
+          "importance": 0.08232606125918884
+        },
+        {
+          "feature": "numeric__latitude_start",
+          "importance": 0.06676055249941994
+        },
+        {
+          "feature": "numeric__latitude_end",
+          "importance": 0.057763596061014985
+        },
+        {
+          "feature": "numeric__toll_rate_inr",
+          "importance": 0.027091226838055888
+        },
+        {
+          "feature": "categorical__district_LB Nagar",
+          "importance": 0.023395779865379662
+        },
+        {
+          "feature": "numeric__longitude_end",
+          "importance": 0.022942194506500424
+        },
+        {
+          "feature": "categorical__district_ECIL",
+          "importance": 0.020069468411825542
+        },
+        {
+          "feature": "numeric__has_bike_lane",
+          "importance": 0.010408532701081276
+        },
+        {
+          "feature": "numeric__speed_limit_kmh",
+          "importance": 0.010385517798855177
+        },
+        {
+          "feature": "categorical__road_type_Collector Road",
+          "importance": 0.007884439054060124
+        },
+        {
+          "feature": "categorical__district_Miyapur",
+          "importance": 0.0060042135473070725
+        },
+        {
+          "feature": "categorical__district_Mehdipatnam",
+          "importance": 0.005296608363200488
+        },
+        {
+          "feature": "categorical__district_Patancheru",
+          "importance": 0.004910369606617316
+        },
+        {
+          "feature": "categorical__district_Ameerpet",
+          "importance": 0.004583102458071557
+        },
+        {
+          "feature": "categorical__district_Tarnaka",
+          "importance": 0.0043374728248097676
+        },
+        {
+          "feature": "categorical__district_Kachiguda",
+          "importance": 0.003941408120497359
+        }
+      ]
+    }
+  },
+  "label_display": {
+    "Low": "Low",
+    "Medium": "Moderate",
+    "High": "High"
+  }
+}
